@@ -17,13 +17,12 @@ Please follow the specifications below, refactoring as you see fit.  However, pl
 Run:
 
 ```
-composer update
+composer install
 ```
 
-to install the testing framework (we're using [Kahlan library](http://kahlan.readthedocs.org/en/latest/) here as it has a very easy-to-understand spec perfect for this small exercise), and to run the tests use:
-
+Then to run tests:
 ```
-./vendor/bin/kahlan
+composer test
 ```
 
 ## Specifications
